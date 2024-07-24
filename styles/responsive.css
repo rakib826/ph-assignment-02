@@ -1,0 +1,20 @@
+@media screen and (max-width: 576px) {
+  .nav-links {
+    display: none;
+  }
+  header{
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .fa-bars {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+  }
+}

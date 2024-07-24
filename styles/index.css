@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italianno&display=swap');
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+header{
+  margin: 0 auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  background: linear-gradient(to bottom, #121212 0%, #474646 100%, #030303 100%);
+  height: 715px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.nav-links{
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  margin: 0px 10px;
+  padding: 4px;
+}
+.nav-title{
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.link-btn{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: none;
+  padding-left: 37px;
+  padding-right: 20px;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.home-btn{
+  background-color: rgb(230, 83, 60);
+  padding: 8px 20px 8px 20px;
+  border-radius: 39px;
+}
+.fa-bars {
+  display: none;
+}
+
