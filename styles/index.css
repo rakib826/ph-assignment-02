@@ -17,7 +17,7 @@ header{
   margin: 0 auto;
   padding-left: 150px;
   padding-right: 150px;
-  background: linear-gradient(to bottom, #121212 0%, #474646 50%, #030303 100%);
+  background: linear-gradient(to bottom, #121212 0%, #2d2d2d 50%, #030303 100%);
 }
 main{
   margin: 0 auto;
@@ -267,7 +267,6 @@ nav{
 }
 .run-image img{
   max-width: 100%;
-  height: fit-content;
   border-radius: 18px;
 }
 .run-btn{
