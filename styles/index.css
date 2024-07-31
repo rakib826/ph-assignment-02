@@ -12,6 +12,7 @@ body{
 }
 .text-left{
   text-align: left;
+  margin-left: 200px;
 }
 header{
   margin: 0 auto;
@@ -21,7 +22,7 @@ header{
 }
 main{
   margin: 0 auto;
-  background-color: #030303;
+  background-color: #000000;
 }
 .section-padding{
   padding-left: 150px;
@@ -271,5 +272,70 @@ nav{
 }
 .run-btn{
   margin-top: 30px;
+}
+
+.BMI{
+  background-color: #222222;
+  margin-top: 88px;
+  padding: 50px 0;
+}
+.bmi-table-title, .bmi-calculator-title{color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: left;
+}
+table{
+  margin-top: 52px;
+}
+table,th,td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+td,th{
+  padding: 20px 30px;
+}
+th{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+}
+td{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-align: left;
+}
+.bmi-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+.bmi-table{
+  width: 45%;
+  margin-top: -100px;
+}
+input{
+  width: 49%;
+  padding: 20px 45px;
+  margin: 5px auto;
+  background-color: #3a3a3a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.activity-factor{
+  width: 99%;
+}
+.bmi-calculator-description{
+  padding-bottom: 35px;
+  padding-top: 10px;
+}
+.calculate-btn{
+  margin-top: 35px;
 }
 

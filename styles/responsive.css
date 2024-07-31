@@ -2,10 +2,18 @@
   .nav-links {
     display: none;
   }
-  header, main{
-    /* margin: 0 auto; */
+  header{
     padding-left: 25px;
     padding-right: 25px;
+  }
+  section{
+    /* margin: 0 auto; */
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .section-padding{
+    padding-left: 30px;
+    padding-right: 30px;
   }
   nav{
     display: flex;
@@ -56,6 +64,29 @@
   }
   .join-now{
     padding: 20px 180px;
+  }
+  .BMI{
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+  .bmi-table, .bmi-calculator{
+    width: 100%;
+    padding: 0px;
+  }
+  .bmi-table{
+    margin-top: 10px;
+  }
+  table{
+    zoom: 130%;
+  }
+  .bmi-content{
+    flex-direction: column;
+    gap: 100px;
+    padding: 0px 50px;
+  }
+  .text-left{
+    text-align: left;
+    margin-left: 0px;
   }
 
 }
