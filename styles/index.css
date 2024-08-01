@@ -383,3 +383,47 @@ input{
   bottom: 30px;
 }
 
+
+.footer-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.site-links-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 200px;
+}
+.site-links a{
+  display: block;
+  text-decoration: none;
+  padding: 12px 0px;
+  font-family: Inter;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: white;
+  opacity: 0.5;
+}
+.site-title{
+  margin-bottom: 60px;
+  font-size: 3.8rem;
+}
+.site-links-title{
+  margin-bottom: 25px;
+}
+.site-info, .site-links{
+  margin-bottom: 40px;
+}
+
+.copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  height: 70px;
+}
+.copyright-description{
+  text-align: center;
+}

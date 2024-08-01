@@ -96,5 +96,21 @@
   .trainer-team{
     padding: 0;
   }
+  .trainer h3, p{
+    zoom: 130%;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }  
+  .site-links-section{
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .site-links{
+    zoom: 130%;
+  }
 
 }
