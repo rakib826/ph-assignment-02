@@ -11,10 +11,6 @@ body{
   font-style: normal; 
   background-color: #000000;
 }
-.text-left{
-  text-align: left;
-  margin-left: 200px;
-}
 header{
   margin: 0 auto;
   padding-left: 150px;
@@ -213,6 +209,10 @@ nav{
   font-size: 1rem;
   font-weight: 400;
 }
+.text-left{
+  text-align: left;
+  margin-left: 200px;
+}
 .habit-container{
   padding-top: 58px;
   display: flex;
@@ -321,7 +321,7 @@ td{
   width: 45%;
   margin-top: -50px;
 }
-input{
+input, select{
   width: 49%;
   padding: 20px 45px;
   margin: 5px auto;
@@ -330,8 +330,21 @@ input{
   border-radius: 5px;
   color: white;
 }
+.select-box {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #3a3a3a;
+}
+.select-box option {
+  color: rgba(255, 255, 255, 0.5);
+}
 .activity-factor{
   width: 99%;
+  padding: 20px 45px;
+  margin: 5px auto;
+  background-color: #3a3a3a;
+  color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 5px;
 }
 .bmi-calculator-description{
   padding-bottom: 35px;

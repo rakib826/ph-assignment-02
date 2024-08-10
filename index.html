@@ -178,9 +178,22 @@
             <input type="number" placeholder="Weight(kg)">
             <br>
             <input type="number" placeholder="Age">
-            <input type="text" placeholder="Sex">
+            <select class="select-box">
+                <option value="" disabled selected>Select Sex</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="non_binary">Non-binary</option>
+                <option value="prefer_not_to_say">Prefer not to say</option>
+            </select>
             <br>
-            <input class="activity-factor" type="text" placeholder="Select an activity factor">
+            <select class="select-box activity-factor">
+                <option value="" disabled selected>Select an activity factor</option>
+                <option value="sedentary">Sedentary</option>
+                <option value="lightly_active">Lightly Active</option>
+                <option value="moderately_active">Moderately Active</option>
+                <option value="very_active">Very Active</option>
+                <option value="extra_active">Extra Active</option>
+            </select>
           </div>
           <div class="calculate-btn">
             <button class="banner-join-btn">Calculate</button>
